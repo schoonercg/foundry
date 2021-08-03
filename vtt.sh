@@ -1,7 +1,7 @@
 #!/bin/sh
 apt-get update
 sudo apt install -y libssl-dev
-sudo apt install unzip
+sudo apt install -y unzip
 curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
 sudo apt install -y nodejs
 cd /home/adminuser
