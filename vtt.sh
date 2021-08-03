@@ -1,9 +1,7 @@
 #!/bin/sh
 apt-get update
-sudo apt install -y libssl-dev
-sudo apt install -y unzip
+sudo apt install -y libssl-dev unzip nodejs
 curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
-sudo apt install -y nodejs
 cd /home/adminuser
 sudo mkdir /foundrydata
 sudo wget -O /home/adminuser/foundryvtt.zip $1
